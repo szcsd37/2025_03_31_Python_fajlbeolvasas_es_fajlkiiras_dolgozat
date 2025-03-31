@@ -17,7 +17,7 @@ with open("beolvasando_adatok/f1.txt", "r", encoding="utf-8") as forras:
     for sor in forras:
         nev, csapat, gyozelmek_szama, telj_futamok_szama = sor.strip().split(";")
         # print(nev, csapat, gyozelmek_szama, telj_futamok_szama)
-        adatok.append([nev, csapat, gyozelmek_szama, telj_futamok_szama])
+        adatok.append([nev, csapat, int(gyozelmek_szama), int(telj_futamok_szama)])
 
 for sor in adatok:
     nevek_szama += 1    
