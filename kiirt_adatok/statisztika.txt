@@ -1,0 +1,4 @@
+A beolvasott fájlban összesen 30 versenyző szerepel.
+A legtöbb futamot nyert versenyző: Michael Schumacher
+A legtöbb futamot teljesített versenyző: Jackie Stewart 
+Az átlagos futamszám:  187.96666666666667

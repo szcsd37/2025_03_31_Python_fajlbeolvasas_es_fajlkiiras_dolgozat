@@ -43,8 +43,8 @@ print(telj_versenyek_lista)
 
 
 
-
-print(f"A beolvasott fájlban összesen {nevek_szama} versenyző szerepel.")
-print(f"A legtöbb futamot nyert versenyző: {max_verseny[0]}")
-print(f"A legtöbb futamot teljesített versenyző: {max_teljesitett[0]} ")
-print("Az átlagos futamszám: ", sum(telj_versenyek_lista) / len(telj_versenyek_lista))
+with open("kiirt_adatok/statisztika.txt", "w", encoding="utf-8") as kiiras:
+    print(f"A beolvasott fájlban összesen {nevek_szama} versenyző szerepel.", file = kiiras)
+    print(f"A legtöbb futamot nyert versenyző: {max_verseny[0]}", file = kiiras)
+    print(f"A legtöbb futamot teljesített versenyző: {max_teljesitett[0]} ", file = kiiras)
+    print("Az átlagos futamszám: ", sum(telj_versenyek_lista) / len(telj_versenyek_lista), file = kiiras)
