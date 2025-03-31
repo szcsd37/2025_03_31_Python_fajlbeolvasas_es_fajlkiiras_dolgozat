@@ -1,4 +1,3 @@
-Név; Csapat; Győzelmek száma; Teljesített futamok száma
 Michael Schumacher;Ferrari;91;306
 Ayrton Senna;McLaren;41;161
 Fernando Alonso;Renault;32;377
